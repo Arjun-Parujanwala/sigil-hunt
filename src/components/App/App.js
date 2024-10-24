@@ -19,7 +19,7 @@ function App() {
     <div className="App">
     {showLogo ? (
       <div className="logo-popup">
-        <img src={example_sigil.png} alt="Logo" className="logo" />
+        <img src={example_sigil} alt="Logo" className="logo" />
       </div>
     ) : (
       <div className="welcome-screen">

@@ -2,8 +2,6 @@
     position: relative;
     height: 100vh;
     width: 100vw;
-    overflow: hidden;
-
 }
 
 .placeholder {
@@ -14,4 +12,31 @@
     left: 50%;
     z-index: -1;
     border: 1px solid black;
+}
+
+.sigil-hunt{
+    text-align: center;
+    margin-top: 10%;
+    z-index: -1;
+    border: 1px solid black;
+    animation: autoShowAnimation;
+    animation-timeline: view(20% 0%);
+}
+
+@keyframes autoShowAnimation {
+    from {
+        opacity: 0;
+        transform: translateY(200px) scale(0.3);
+    } to {
+        transform: translateY(0) scale(1);
+    }
+}
+
+.test {
+    text-align: center;
+    margin-top: 10%;
+    z-index: -1;
+    border: 1px solid black;
+    height: 50%;
+    width: 50%;
 }

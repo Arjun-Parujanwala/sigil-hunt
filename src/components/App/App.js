@@ -6,8 +6,9 @@ function App() {
     <div className='App'>
       <Opening />
       <div class='scroll'></div>
-        <h1 class='placeholder'>Welcome...</h1>
+        <h1 class='placeholder'>Welcome Hunters...</h1>
         <h1 class='sigil-hunt'>To Sigil Hunt.</h1>
+        <div class='test'></div>
       <div />
     </div>
   );
